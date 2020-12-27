@@ -3,6 +3,7 @@
   justify-content: space-between;
   align-items: center;
   padding: var(--horizontal-space);
+  margin-bottom: 15px;
 }
 
 .screen-header__title {
@@ -12,4 +13,14 @@
 
 .screen-header__icons span {
   margin-left: 25px;
+}
+.chat-pivot {
+  position: relative;
+}
+.chat-plus {
+  display: flex;
+  position: absolute;
+  background-color: white;
+  top: 61px;
+  right: 120px;
 }
