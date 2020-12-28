@@ -18,6 +18,7 @@
 @import "screens/find.css";
 @import "screens/more.css";
 @import "screens/setting.css";
+@import "screens/chat.css";
 
 body {
   color: #2e363e;
@@ -31,4 +32,8 @@ body {
 a {
   color: black;
   text-decoration: none;
+}
+
+*:focus {
+  outline: none;
 }
