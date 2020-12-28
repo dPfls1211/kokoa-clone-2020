@@ -65,3 +65,9 @@
   margin-top: 8px;
   margin-left: 5px;
 }
+.user-componet__exclamation-new-size {
+  width: 15px;
+  height: 15px;
+  font-size: 10px;
+  margin-left: 8px;
+}
