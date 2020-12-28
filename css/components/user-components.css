@@ -6,6 +6,7 @@
 .user-component__column:first-child {
   display: flex;
   align-items: center;
+  margin-bottom: 10px;
 }
 
 .user-component__avatar {
@@ -52,4 +53,15 @@
 .user-component__time {
   margin-bottom: 10px;
   display: block;
+}
+
+.user-componet__exclamation {
+  display: flex;
+  align-items: center;
+}
+.user-componet__exclamation img {
+  width: 15px;
+  height: 15px;
+  margin-top: 8px;
+  margin-left: 5px;
 }

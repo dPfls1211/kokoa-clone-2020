@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More - Kokoa Clone</title>
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <!--To do: Wifi Icon-->
+            <i class="fas fa-wifi"></i>  
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>110%</span>
+            <!--Battery Icon-->
+            <i class="fas fa-battery-full"></i>
+            <!--Lightning Icon-->
+            <i class="fas fa-bolt"></i>
+        </div>
+        
+    </div>
+    <header class="screen-header">
+        <h1 class="screen-header__title">More</h1>
+        <div class="screen-header__icons">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-music fa-lg"></i></span>
+            <span class="dot-pivot"><i class="fas fa-cog fa-lg"></i><span class="dot"></span></span>
+            
+        </div>
+    </header>
+
+    <main class="main-screen more-screen">
+        <div class="user-component">
+            <div class="user-component__column">
+                <!--image 프사-->
+                <img src="https://image.fmkorea.com/files/attach/new/20191109/14339012/155544/2365692239/99b983892094b5c6d2fc3736e15da7d1.jpg" 
+                class="user-component__avatar user-component__avatar"/>
+                <!--contents-->
+                <div class="user-component__text"> 
+                    <h4 class="user-component__title">Yerin</h4>
+                    <div class="user-componet__exclamation">
+                        <h6 class="user-component__subtitle">+82 10-1234-6789</h6>
+                        <img src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iaXNvLTg4NTktMSI/Pg0KPCEtLSBHZW5lcmF0b3I6IEFkb2JlIElsbHVzdHJhdG9yIDE5LjAuMCwgU1ZHIEV4cG9ydCBQbHVnLUluIC4gU1ZHIFZlcnNpb246IDYuMDAgQnVpbGQgMCkgIC0tPg0KPHN2ZyB2ZXJzaW9uPSIxLjEiIGlkPSJMYXllcl8xIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB4PSIwcHgiIHk9IjBweCINCgkgdmlld0JveD0iMCAwIDI4Ni4wNTQgMjg2LjA1NCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgMjg2LjA1NCAyODYuMDU0OyIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSI+DQo8Zz4NCgk8cGF0aCBzdHlsZT0iZmlsbDojRTI1NzRDOyIgZD0iTTE0My4wMjcsMEM2NC4wNCwwLDAsNjQuMDQsMCwxNDMuMDI3YzAsNzguOTk2LDY0LjA0LDE0My4wMjcsMTQzLjAyNywxNDMuMDI3DQoJCWM3OC45OTYsMCwxNDMuMDI3LTY0LjAyMiwxNDMuMDI3LTE0My4wMjdDMjg2LjA1NCw2NC4wNCwyMjIuMDIyLDAsMTQzLjAyNywweiBNMTQzLjAyNywyNTkuMjM2DQoJCWMtNjQuMTgzLDAtMTE2LjIwOS01Mi4wMjYtMTE2LjIwOS0xMTYuMjA5Uzc4Ljg0NCwyNi44MTgsMTQzLjAyNywyNi44MThzMTE2LjIwOSw1Mi4wMjYsMTE2LjIwOSwxMTYuMjA5DQoJCVMyMDcuMjEsMjU5LjIzNiwxNDMuMDI3LDI1OS4yMzZ6IE0xNDMuMDM2LDYyLjcyNmMtMTAuMjQ0LDAtMTcuOTk1LDUuMzQ2LTE3Ljk5NSwxMy45ODF2NzkuMjAxYzAsOC42NDQsNy43NSwxMy45NzIsMTcuOTk1LDEzLjk3Mg0KCQljOS45OTQsMCwxNy45OTUtNS41NTEsMTcuOTk1LTEzLjk3MlY3Ni43MDdDMTYxLjAzLDY4LjI3NywxNTMuMDMsNjIuNzI2LDE0My4wMzYsNjIuNzI2eiBNMTQzLjAzNiwxODcuNzIzDQoJCWMtOS44NDIsMC0xNy44NTIsOC4wMS0xNy44NTIsMTcuODZjMCw5LjgzMyw4LjAxLDE3Ljg0MywxNy44NTIsMTcuODQzczE3Ljg0My04LjAxLDE3Ljg0My0xNy44NDMNCgkJQzE2MC44NzgsMTk1LjczMiwxNTIuODc4LDE4Ny43MjMsMTQzLjAzNiwxODcuNzIzeiIvPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPGc+DQo8L2c+DQo8Zz4NCjwvZz4NCjxnPg0KPC9nPg0KPC9zdmc+DQo=" />
+                    </div>
+                </div>
+            </div>
+            <!--etc.. icons-->
+            <div class="user-component__column">
+                <i class="far fa-comment-alt fa-2x"></i>
+            </div>
+        </div>
+        <div class="icon-raw">
+            <div class="icon-raw__icon"><i class="far fa-calendar-check"></i><span>Calendar</span></div>
+            <div class="icon-raw__icon dot-pivot"><i class="fas fa-archive"></i><span class="dot"></span><span>Talk Drive</span></div>
+            <div class="icon-raw__icon"><i class="far fa-grin-squint"></i><span>Emoticons</span></div>
+            <div class="icon-raw__icon"><i class="fas fa-brush"></i><span>Themes</span></div>
+        </div>
+        <div class="side"></div>
+        <div class="icon-raw">
+            <div class="icon-raw__icon"><i class="fas fa-file-invoice-dollar"></i><span>Account</span></div>
+            <div class="icon-raw__icon"><i class="far fa-comments"></i><span>openchat</span></div>
+            <div class="icon-raw__icon"></div>
+            <div class="icon-raw__icon"></div>
+            <div class="icon-raw__icon"></div>
+            <div class="icon-raw__icon"></div>
+        </div>
+        <div class="more-suggestions">
+            <h4 class="more-suggestions__title">Suggestions</h4>
+            <div class="more-suggestions__icons">
+                <div class="more-suggestions__icon">
+                    <div class="more-suggestions__icon-image">
+                        <img class="more-suggestions__icon-image-size" src="https://lh3.googleusercontent.com/proxy/qR40t6ur8hRM_3nnyL2c89KJqaXq1diZWB0ZQWsQ-lLmX9PW3o-lqaIipueVARd0PgUGpVGP5f2L2zYR7B1VVyzXXlkfg_yri6_hYty9mfishttWTBA4PXDJHE1PMdhS1d7hY9Nn-xwmM3E96ujNv4RIDkmHZ-viSXPT82iRJxtpBc3e5BT5g4asmvR_96VYMwHD"/>
+                    </div>
+                    <span class="more-suggestions__icon-text">kakao Story</span>
+                </div>
+                <div class="more-suggestions__icon">
+                    <div class="more-suggestions__icon-image">
+                        <img class="more-suggestions__icon-image-size" src="https://static.lottedfs.com/contents/images/event-img/20200319104823327bd789f7ef6f94e44a7ecfafedcb1f4ec.jpg"/>
+                    </div>
+                    <span class="more-suggestions__icon-text">kakao friends</span>
+                </div>
+                <div class="more-suggestions__icon">
+                    <div class="more-suggestions__icon-image">
+                        <img class="more-suggestions__icon-image-size" src="https://www.greenpostkorea.co.kr/news/photo/201906/106086_103883_4145.png"/>
+                    </div>
+                    <span class="more-suggestions__icon-text">kakao apeach</span>
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn"><a class="nav__link" href="friends.html"><i class="far fa-user fa-2x"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="chats.html"><span class="nav__notification badge">1</span><i class="far fa-comment fa-2x"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="find.html"><i class="fas fa-search fa-2x"></i></a></li>
+            <li class="nav__btn"><a class="nav__link" href="more.html"><span class="nav_ellipsis"></span><i class="fas fa-ellipsis-h fa-2x"></i></a></li>
+        </ul>
+    </nav>
+
+    <script src="https://kit.fontawesome.com/6478f529f2.js" crossorigin="anonymous"></script>
+</body>
+</html>
